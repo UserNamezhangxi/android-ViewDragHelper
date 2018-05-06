@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mw.huawei.com.viewdraghelper.MainActivity">
+
+    <mw.huawei.com.viewdraghelper.MyView.ViewDragHelperView
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="#88ff0000"
+            android:text="I can be dragged !"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#8800ff00"
+            android:text="I will bakc to original loc !"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#880000ff"
+            android:text=" edage to ctrl me"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </mw.huawei.com.viewdraghelper.MyView.ViewDragHelperView>
+</RelativeLayout>
